@@ -71,11 +71,11 @@ def create_video_from_audio(
     video.write_videofile(output_path, fps=24, codec="libx264", audio_codec="aac")
 
 # Example usage
-audio_file = "quran/001 - Al-Fatihah ( The Opening ) - A Abertura  .mp3"            # Path to the Quran MP3 file
+audio_file = "quran/051 Adh-Dhariyat - The Wind That Scatter - Os Ventos Disseminadores.mp3"            # Path to the Quran MP3 file
 image_file = "image/samsommer-vddccTqwal8-unsplash.jpg"            # Path to the background image
 logo_file = "logo/facebook.png"              # Path to the Facebook logo image
 output_file = "output/114.A Sura dos Humanos.mp4"          # Path to save the output video
-title = "114.A Sura dos Humanos"                 # Title to display on the video
+title = "051 Adh-Dhariyat - The Wind That Scatter - Os Ventos Disseminadores"                 # Title to display on the video
 text_fontsize = 50                           # Font size for the bottom title
 
 create_video_from_audio(
